@@ -1,0 +1,24 @@
+{
+  "name": "hellofunction",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "functions-framework --target helloFunction --port 8081",
+    "test": "node --test",
+    "eslint": "echo install eslint if you want to use it"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
