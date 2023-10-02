@@ -1,0 +1,47 @@
+Arguments: 
+  /home/bert/.asdf/installs/nodejs/16.14.2/bin/node /usr/sbin/yarn add @google-cloud/pubsu
+
+PATH: 
+  /home/bert/.asdf/plugins/nodejs/shims:/home/bert/.asdf/installs/nodejs/lts/.npm/bin:/home/bert/.asdf/installs/nodejs/lts/bin:/home/bert/.asdf/installs/flutter/3.3.8-stable/bin:/home/bert/.asdf/shims:/opt/asdf-vm/bin:/home/bert/.fly/bin:/home/bert/.local/bin:/home/bert/.cargo/bin:/home/bert/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/bert/.asdf/installs/flutter/3.3.8-stable/bin:/home/bert/.fly/bin:/home/bert/.local/bin:/home/bert/.cargo/bin:/home/bert/.nvm/versions/node/v20.7.0/bin:/opt/google-cloud-sdk/bin:/home/bert/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/usbipd-win/:/mnt/c/src/flutter/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Vini/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Vini/AppData/Local/Programs/Microsoft VS Code/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/bert/.fzf/bin:/home/bert/go:/home/bert/go/bin:/usr/local/go/bin:/usr/lib/jvm/java-19-openjdk//bin:/home/bert/.local/share/gem/ruby/3.0.0/bin:/home/bert/Android/tools:/home/bert/Android/platform-tools:/home/bert/go:/home/bert/go/bin:/usr/local/go/bin:/usr/lib/jvm/java-19-openjdk//bin:/home/bert/.local/share/gem/ruby/3.0.0/bin:/home/bert/Android/tools:/home/bert/Android/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@google-cloud%2fpubsu: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "pubsub",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
